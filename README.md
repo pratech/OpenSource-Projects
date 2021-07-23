@@ -1,9 +1,14 @@
 # OpenSource-Projects
 Open Source Pinwheel Robotics Project
-Scratch-Bot by Pinwheel Robotics is a programmable Toy Robot designed for elementary kids.
-Who would want to delve into programming things using simple scratch and block based coding.
-The Robot should include integrated sensors on the board.
-to understand the environment and respond by way of moving wheels, 
-wagging tails, blinking eyes, changing color, producing sound. 
-The idea is to make the robot interesting and funny for them 
-at the same time kids learning to code!
+Pinwheel Robotics is a company based in Bengaluru , Karnataka ,India
+Our aim is to make programming and Robotics fun for students 
+This will foster more creativity among kids.
+At Pinwheel we believe Education should have no boundary and hence creating this open source projects hub.
+Please contact us at admin@pinwheel.in
+Alternate Email address of founder - prateek.ideafires@gmail.com
+Our Tech blogs are at www.pinwheel.in
+Facebook- www.facebook.com/pinwheeler
+Instagram- www.instagram.com/pinwheelrobotics
+Youtube - Search for Pinwheel Robotics .
+
+
