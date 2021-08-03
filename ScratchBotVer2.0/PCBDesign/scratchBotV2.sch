@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -12174,12 +12174,16 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="ARD_NANO" gate="G$1" pin="A1"/>
 <wire x1="55.88" y1="60.96" x2="2.54" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="60.96" x2="2.54" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="111.76" x2="-50.8" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="111.76" x2="-20.32" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="111.76" x2="-50.8" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="111.76" x2="-50.8" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="T1" gate="G$1" pin="B"/>
 <wire x1="-50.8" y1="99.06" x2="-48.26" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="5"/>
 <junction x="55.88" y="60.96"/>
+<wire x1="-81.28" y1="139.7" x2="-20.32" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="139.7" x2="-20.32" y2="111.76" width="0.1524" layer="91"/>
+<junction x="-20.32" y="111.76"/>
 </segment>
 </net>
 <net name="N$24" class="0">
