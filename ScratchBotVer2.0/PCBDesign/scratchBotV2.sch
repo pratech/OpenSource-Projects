@@ -689,39 +689,6 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 <wire x1="-15.24" y1="-5.715" x2="-15.24" y2="-6.985" width="0.254" layer="21"/>
 <wire x1="-15.875" y1="6.35" x2="-14.605" y2="6.35" width="0.254" layer="21"/>
 </package>
-<package name="BATTERY-CHARGER-LI-PROT">
-<description>&lt;b&gt;Protected Lithium Battery 5V Charger&lt;/b&gt; with micro-USB connector</description>
-<wire x1="-13.97" y1="8.636" x2="13.97" y2="8.636" width="0.127" layer="21"/>
-<wire x1="13.97" y1="-8.636" x2="-13.97" y2="-8.636" width="0.127" layer="21"/>
-<pad name="IN+" x="-12.065" y="6.985" drill="1.2" diameter="2.5" shape="square"/>
-<pad name="IN-" x="-12.065" y="-6.985" drill="1.2" diameter="2.5" shape="square"/>
-<pad name="B+" x="10.795" y="3.81" drill="1.2" diameter="2.5" shape="square"/>
-<pad name="B-" x="10.795" y="-3.81" drill="1.2" diameter="2.5" shape="square"/>
-<text x="-9.525" y="6.985" size="1.27" layer="21" align="center-left">IN+</text>
-<text x="-9.525" y="-6.985" size="1.27" layer="21" align="center-left">IN-</text>
-<text x="8.255" y="3.81" size="1.27" layer="21" align="center-right">B+</text>
-<text x="8.255" y="-3.81" size="1.27" layer="21" align="center-right">B-</text>
-<wire x1="-13.97" y1="8.636" x2="-13.97" y2="4.064" width="0.127" layer="21"/>
-<wire x1="-13.97" y1="-8.636" x2="-13.97" y2="-4.064" width="0.127" layer="21"/>
-<wire x1="-14.605" y1="4.064" x2="-13.97" y2="4.064" width="0.127" layer="21"/>
-<wire x1="-14.605" y1="-4.064" x2="-13.97" y2="-4.064" width="0.127" layer="21"/>
-<wire x1="-13.97" y1="-4.064" x2="-8.128" y2="-4.064" width="0.127" layer="21"/>
-<wire x1="-14.605" y1="4.064" x2="-14.605" y2="-4.064" width="0.127" layer="21"/>
-<wire x1="-8.128" y1="4.064" x2="-8.128" y2="-4.064" width="0.127" layer="21"/>
-<text x="-11.43" y="0" size="1.778" layer="21" align="center">USB</text>
-<text x="0" y="10.16" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-10.16" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-<wire x1="13.97" y1="8.636" x2="13.97" y2="6.35" width="0.127" layer="21"/>
-<wire x1="13.97" y1="6.35" x2="12.7" y2="6.35" width="0.127" layer="21"/>
-<wire x1="12.7" y1="6.35" x2="12.7" y2="-6.35" width="0.127" layer="21"/>
-<wire x1="12.7" y1="-6.35" x2="13.97" y2="-6.35" width="0.127" layer="21"/>
-<wire x1="13.97" y1="-6.35" x2="13.97" y2="-8.636" width="0.127" layer="21"/>
-<pad name="OUT+" x="10.795" y="6.985" drill="1.2" diameter="2.5" shape="square"/>
-<pad name="OUT-" x="10.795" y="-6.985" drill="1.2" diameter="2.5" shape="square"/>
-<wire x1="-13.97" y1="4.064" x2="-8.128" y2="4.064" width="0.127" layer="21"/>
-<text x="8.255" y="6.985" size="1.27" layer="21" align="center-right">OUT+</text>
-<text x="8.255" y="-6.985" size="1.27" layer="21" align="center-right">OUT-</text>
-</package>
 </packages>
 <symbols>
 <symbol name="DC-DC-STEP-UP-MT3608">
@@ -736,27 +703,6 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 <wire x1="-12.7" y1="-10.16" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
 <text x="-12.7" y="15.24" size="1.778" layer="95">&gt;NAME</text>
 <text x="-12.7" y="12.7" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-<symbol name="BATTERY-CHARGER-LI-PROT">
-<description>&lt;b&gt;Protected Lithium Battery 5V Charger&lt;/b&gt; with micro-USB connector</description>
-<pin name="IN+" x="-17.78" y="7.62" visible="pin" length="middle"/>
-<pin name="IN-" x="-17.78" y="-7.62" visible="pin" length="middle"/>
-<pin name="B+" x="15.24" y="2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="B-" x="15.24" y="-2.54" visible="pin" length="middle" rot="R180"/>
-<wire x1="-12.7" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
-<wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-10.16" x2="-12.7" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-10.16" x2="-12.7" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-3.81" x2="-12.7" y2="3.81" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="3.81" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="3.81" x2="-3.81" y2="3.81" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="3.81" x2="-3.81" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="-3.81" x2="-12.7" y2="-3.81" width="0.254" layer="94"/>
-<text x="-8.382" y="0" size="1.778" layer="94" align="center">USB</text>
-<text x="-12.7" y="15.24" size="1.778" layer="95">&gt;NAME</text>
-<text x="-12.7" y="12.7" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="OUT+" x="15.24" y="7.62" visible="pin" length="middle" rot="R180"/>
-<pin name="OUT-" x="15.24" y="-7.62" visible="pin" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -781,114 +727,6 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 </connects>
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="BATTERY-CHARGER-LI-PROT">
-<description>&lt;b&gt;Lithium Battery 5V Charger&lt;/b&gt; with protection circuit
-&lt;p&gt;More details available here:&lt;br&gt;
-&lt;a href="http://www.instructables.com/id/DIY-Lithium-ion-Battery-Charger/step4/TP4056-based-lithium-ion-battery-charger-module/"&gt;
-http://www.instructables.com/id/DIY-Lithium-ion-Battery-Charger/step4/TP4056-based-lithium-ion-battery-charger-module/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;&lt;a href="http://www.ebay.com/sch/tp4056+charger+usb+protection"&gt;Click here to find device on ebay.com&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="photo" src="http://www.diymodules.org/img/device-photo.php?name=BATTERY-CHARGER-LI-PROT"&gt;&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="BATTERY-CHARGER-LI-PROT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="BATTERY-CHARGER-LI-PROT">
-<connects>
-<connect gate="G$1" pin="B+" pad="B+"/>
-<connect gate="G$1" pin="B-" pad="B-"/>
-<connect gate="G$1" pin="IN+" pad="IN+"/>
-<connect gate="G$1" pin="IN-" pad="IN-"/>
-<connect gate="G$1" pin="OUT+" pad="OUT+"/>
-<connect gate="G$1" pin="OUT-" pad="OUT-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="BK-18650-PC2">
-<packages>
-<package name="BAT_BK-18650-PC2">
-<text x="-38.63" y="10.795" size="1.27" layer="25">&gt;NAME</text>
-<text x="-38.63" y="-12.145" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-38.48" y1="10.49" x2="38.48" y2="10.49" width="0.127" layer="21"/>
-<wire x1="38.48" y1="10.49" x2="38.48" y2="-10.49" width="0.127" layer="21"/>
-<wire x1="38.48" y1="-10.49" x2="-38.48" y2="-10.49" width="0.127" layer="21"/>
-<wire x1="-38.48" y1="-10.49" x2="-38.48" y2="10.49" width="0.127" layer="21"/>
-<wire x1="-38.73" y1="10.74" x2="38.73" y2="10.74" width="0.05" layer="39"/>
-<wire x1="38.73" y1="10.74" x2="38.73" y2="-10.74" width="0.05" layer="39"/>
-<wire x1="38.73" y1="-10.74" x2="-38.73" y2="-10.74" width="0.05" layer="39"/>
-<wire x1="-38.73" y1="-10.74" x2="-38.73" y2="10.74" width="0.05" layer="39"/>
-<wire x1="-40.63" y1="1" x2="-40.63" y2="-1" width="0.127" layer="21"/>
-<wire x1="-41.63" y1="0" x2="-39.63" y2="0" width="0.127" layer="21"/>
-<wire x1="39.63" y1="0" x2="41.63" y2="0" width="0.127" layer="21"/>
-<wire x1="-38.48" y1="10.49" x2="38.48" y2="10.49" width="0.127" layer="51"/>
-<wire x1="38.48" y1="10.49" x2="38.48" y2="-10.49" width="0.127" layer="51"/>
-<wire x1="38.48" y1="-10.49" x2="-38.48" y2="-10.49" width="0.127" layer="51"/>
-<wire x1="-38.48" y1="-10.49" x2="-38.48" y2="10.49" width="0.127" layer="51"/>
-<wire x1="-40.63" y1="1" x2="-40.63" y2="-1" width="0.127" layer="51"/>
-<wire x1="-41.63" y1="0" x2="-39.63" y2="0" width="0.127" layer="51"/>
-<wire x1="39.63" y1="0" x2="41.63" y2="0" width="0.127" layer="51"/>
-<wire x1="-36.99" y1="1.2" x2="-35.61" y2="1.2" width="0" layer="46"/>
-<wire x1="-35.61" y1="1.2" x2="-35.61" y2="-1.2" width="0" layer="46"/>
-<wire x1="-35.61" y1="-1.2" x2="-36.99" y2="-1.2" width="0" layer="46"/>
-<wire x1="-36.99" y1="-1.2" x2="-36.99" y2="1.2" width="0" layer="46"/>
-<wire x1="35.91" y1="1.2" x2="37.29" y2="1.2" width="0" layer="46"/>
-<wire x1="37.29" y1="1.2" x2="37.29" y2="-1.2" width="0" layer="46"/>
-<wire x1="37.29" y1="-1.2" x2="35.91" y2="-1.2" width="0" layer="46"/>
-<wire x1="35.91" y1="-1.2" x2="35.91" y2="1.2" width="0" layer="46"/>
-<pad name="+" x="-36.3" y="0" drill="1.38" shape="long" rot="R90"/>
-<pad name="-" x="36.6" y="0" drill="1.38" shape="long" rot="R90"/>
-<hole x="-27.805" y="0" drill="3.2"/>
-<hole x="27.81" y="0" drill="3.2"/>
-</package>
-</packages>
-<symbols>
-<symbol name="BK-18650-PC2">
-<wire x1="-1.27" y1="2.54" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="-3.175" y1="2.54" x2="-3.175" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="1.905" x2="-2.54" y2="1.905" width="0.254" layer="94"/>
-<text x="-3.81" y="3.81" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="+" x="-7.62" y="0" visible="pad" length="middle" direction="pas"/>
-<pin name="-" x="7.62" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="BK-18650-PC2" prefix="BT">
-<description>Battery Holder (Open) 18650 1 Cell PC Pin &lt;a href="https://pricing.snapeda.com/parts/BK-18650-PC2/MPD%20%28Memory%20Protection%20Devices%29/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="BK-18650-PC2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="BAT_BK-18650-PC2">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Warning"/>
-<attribute name="DESCRIPTION" value=" BATTERY HOLDER 18650 PC PIN "/>
-<attribute name="MF" value="MPD (Memory Protection Devices)"/>
-<attribute name="MP" value="BK-18650-PC2"/>
-<attribute name="PACKAGE" value="None"/>
-<attribute name="PRICE" value="None"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/BK-18650-PC2/?ref=eda"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -11327,6 +11165,117 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="1048P">
+<packages>
+<package name="BAT_1048P">
+<wire x1="-38.53" y1="19.89" x2="38.53" y2="19.89" width="0.127" layer="51"/>
+<wire x1="38.53" y1="19.89" x2="38.53" y2="-19.89" width="0.127" layer="51"/>
+<wire x1="38.53" y1="-19.89" x2="-38.53" y2="-19.89" width="0.127" layer="51"/>
+<wire x1="-38.53" y1="-19.89" x2="-38.53" y2="19.89" width="0.127" layer="51"/>
+<wire x1="-38.53" y1="13.05" x2="-38.53" y2="19.89" width="0.127" layer="21"/>
+<wire x1="-38.53" y1="19.89" x2="38.53" y2="19.89" width="0.127" layer="21"/>
+<wire x1="38.53" y1="19.89" x2="38.53" y2="13.05" width="0.127" layer="21"/>
+<wire x1="-38.53" y1="-13.05" x2="-38.53" y2="-19.89" width="0.127" layer="21"/>
+<wire x1="-38.53" y1="-19.89" x2="38.53" y2="-19.89" width="0.127" layer="21"/>
+<wire x1="38.53" y1="-19.89" x2="38.53" y2="-13.05" width="0.127" layer="21"/>
+<wire x1="-43.25" y1="13" x2="-38.78" y2="13" width="0.05" layer="39"/>
+<wire x1="-38.78" y1="13" x2="-38.78" y2="20.14" width="0.05" layer="39"/>
+<wire x1="-38.78" y1="20.14" x2="38.78" y2="20.14" width="0.05" layer="39"/>
+<wire x1="38.78" y1="20.14" x2="38.78" y2="13" width="0.05" layer="39"/>
+<wire x1="38.78" y1="13" x2="43.25" y2="13" width="0.05" layer="39"/>
+<wire x1="43.25" y1="13" x2="43.25" y2="-13" width="0.05" layer="39"/>
+<wire x1="43.25" y1="-13" x2="38.78" y2="-13" width="0.05" layer="39"/>
+<wire x1="38.78" y1="-13" x2="38.78" y2="-20.14" width="0.05" layer="39"/>
+<wire x1="38.78" y1="-20.14" x2="-38.78" y2="-20.14" width="0.05" layer="39"/>
+<wire x1="-38.78" y1="-20.14" x2="-38.78" y2="-13" width="0.05" layer="39"/>
+<wire x1="-38.78" y1="-13" x2="-43.25" y2="-13" width="0.05" layer="39"/>
+<wire x1="-43.25" y1="-13" x2="-43.25" y2="13" width="0.05" layer="39"/>
+<wire x1="-40.25" y1="14.5" x2="-40.25" y2="13.5" width="0.127" layer="21"/>
+<wire x1="-40.75" y1="14" x2="-39.75" y2="14" width="0.127" layer="21"/>
+<wire x1="-40.75" y1="-14" x2="-39.75" y2="-14" width="0.127" layer="21"/>
+<wire x1="40.25" y1="-14.5" x2="40.25" y2="-13.5" width="0.127" layer="21"/>
+<wire x1="40.75" y1="-14" x2="39.75" y2="-14" width="0.127" layer="21"/>
+<wire x1="40.75" y1="14" x2="39.75" y2="14" width="0.127" layer="21"/>
+<wire x1="-40.25" y1="14.5" x2="-40.25" y2="13.5" width="0.127" layer="51"/>
+<wire x1="-40.75" y1="14" x2="-39.75" y2="14" width="0.127" layer="51"/>
+<wire x1="-40.75" y1="-14" x2="-39.75" y2="-14" width="0.127" layer="51"/>
+<wire x1="40.25" y1="-14.5" x2="40.25" y2="-13.5" width="0.127" layer="51"/>
+<wire x1="40.75" y1="-14" x2="39.75" y2="-14" width="0.127" layer="51"/>
+<wire x1="40.75" y1="14" x2="39.75" y2="14" width="0.127" layer="51"/>
+<text x="-38" y="20.5" size="1.778" layer="25">&gt;NAME</text>
+<text x="-38" y="-22" size="1.778" layer="27">&gt;VALUE</text>
+<smd name="1+" x="-39.33" y="9.555" dx="7.34" dy="6.35" layer="1"/>
+<smd name="1-" x="39.33" y="9.555" dx="7.34" dy="6.35" layer="1"/>
+<smd name="2-" x="-39.33" y="-9.555" dx="7.34" dy="6.35" layer="1"/>
+<smd name="2+" x="39.33" y="-9.555" dx="7.34" dy="6.35" layer="1"/>
+<hole x="-27.6" y="0" drill="3.17"/>
+<hole x="27.6" y="0" drill="3.17"/>
+<hole x="-27.6" y="-17.505" drill="3.45"/>
+<hole x="27.6" y="17.505" drill="3.45"/>
+<hole x="35.82" y="-17.505" drill="2.39"/>
+</package>
+</packages>
+<symbols>
+<symbol name="1048P_SECTION1">
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-3.175" y1="2.54" x2="-3.175" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="1.905" x2="-2.54" y2="1.905" width="0.254" layer="94"/>
+<text x="-3.81" y="3.81" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1+" x="-7.62" y="0" visible="pad" length="middle" direction="pas"/>
+<pin name="1-" x="7.62" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="1048P_SECTION2">
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-3.175" y1="2.54" x2="-3.175" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="1.905" x2="-2.54" y2="1.905" width="0.254" layer="94"/>
+<text x="-3.81" y="3.81" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2+" x="-7.62" y="0" visible="pad" length="middle" direction="pas"/>
+<pin name="2-" x="7.62" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="1048P" prefix="BT">
+<description>Battery Holder (Open) 18650 2 Cell SMD (SMT) Tab  &lt;a href="https://pricing.snapeda.com/parts/1048P/Keystone%20Electronics/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="1048P_SECTION1" x="0" y="7.62" swaplevel="1"/>
+<gate name="G$2" symbol="1048P_SECTION2" x="0" y="-7.62" swaplevel="2"/>
+</gates>
+<devices>
+<device name="" package="BAT_1048P">
+<connects>
+<connect gate="G$1" pin="1+" pad="1+"/>
+<connect gate="G$1" pin="1-" pad="1-"/>
+<connect gate="G$2" pin="2+" pad="2+"/>
+<connect gate="G$2" pin="2-" pad="2-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value=" SMT Polarized Holder for Dual 18650 Batteries "/>
+<attribute name="MF" value="Keystone Electronics"/>
+<attribute name="MP" value="1048P"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/1048P/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -11340,8 +11289,6 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="ARD_NANO" library="ArduinoNanoV30" deviceset="ARDUINO_NANO" device=""/>
 <part name="DRIVER" library="st-microelectronics" library_urn="urn:adsk.eagle:library:368" deviceset="L293D" device="" package3d_urn="urn:adsk.eagle:package:26820/1"/>
 <part name="BOOSTER" library="diy-modules" deviceset="DC-DC-STEP-UP-MT3608" device=""/>
-<part name="CHARGER" library="diy-modules" deviceset="BATTERY-CHARGER-LI-PROT" device=""/>
-<part name="LI-IONBATTERY" library="BK-18650-PC2" deviceset="BK-18650-PC2" device=""/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
@@ -11406,6 +11353,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="SUPPLY30" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY31" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="3.3V" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
+<part name="BT1" library="1048P" deviceset="1048P" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11423,13 +11371,6 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <instance part="BOOSTER" gate="G$1" x="20.32" y="33.02" smashed="yes" rot="R180">
 <attribute name="NAME" x="33.02" y="17.78" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="33.02" y="20.32" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="CHARGER" gate="G$1" x="-71.12" y="35.56" smashed="yes">
-<attribute name="NAME" x="-83.82" y="50.8" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-83.82" y="48.26" size="1.778" layer="96"/>
-</instance>
-<instance part="LI-IONBATTERY" gate="G$1" x="-38.1" y="33.02" smashed="yes">
-<attribute name="VALUE" x="-41.91" y="27.94" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY1" gate="GND" x="48.26" y="35.56" smashed="yes">
 <attribute name="VALUE" x="46.355" y="32.385" size="1.778" layer="96"/>
@@ -11736,6 +11677,10 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <attribute name="VALUE" x="132.08" y="147.066" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="132.08" y="136.652" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
+<instance part="BT1" gate="G$1" x="-40.64" y="40.64" smashed="yes" rot="R90">
+<attribute name="NAME" x="-44.45" y="36.83" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-35.56" y="36.83" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -11930,34 +11875,18 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <junction x="96.52" y="58.42"/>
 </segment>
 </net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="CHARGER" gate="G$1" pin="B-"/>
-<wire x1="-55.88" y1="33.02" x2="-45.72" y2="33.02" width="0.1524" layer="91"/>
-<junction x="-55.88" y="33.02"/>
-<pinref part="LI-IONBATTERY" gate="G$1" pin="+"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="CHARGER" gate="G$1" pin="B+"/>
-<wire x1="-55.88" y1="38.1" x2="-30.48" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="-30.48" y1="38.1" x2="-30.48" y2="33.02" width="0.1524" layer="91"/>
-<junction x="-55.88" y="38.1"/>
-<pinref part="LI-IONBATTERY" gate="G$1" pin="-"/>
-</segment>
-</net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="CHARGER" gate="G$1" pin="OUT-"/>
-<wire x1="-55.88" y1="27.94" x2="-55.88" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="-55.88" y1="22.86" x2="-5.08" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="BOOSTER" gate="G$1" pin="IN-"/>
-<wire x1="-5.08" y1="15.24" x2="-5.08" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="25.4" x2="2.54" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="33.02" x2="-5.08" y2="25.4" width="0.1524" layer="91"/>
 <junction x="-5.08" y="25.4"/>
 <pinref part="BATT-LEVEL" gate="-1" pin="S"/>
+<wire x1="-5.08" y1="25.4" x2="-27.94" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="25.4" x2="-27.94" y2="33.02" width="0.1524" layer="91"/>
+<junction x="-5.08" y="25.4"/>
+<pinref part="BT1" gate="G$1" pin="1+"/>
+<wire x1="-40.64" y1="33.02" x2="-27.94" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="9V-MT3608" class="0">
@@ -12250,19 +12179,6 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <junction x="-5.08" y="58.42"/>
 </segment>
 </net>
-<net name="N$32" class="0">
-<segment>
-<pinref part="SW2" gate="1" pin="P"/>
-<pinref part="CHARGER" gate="G$1" pin="OUT+"/>
-<wire x1="-55.88" y1="43.18" x2="-22.86" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="-22.86" y1="43.18" x2="-22.86" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="-22.86" y1="58.42" x2="-12.7" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="SWITCH" gate="-1" pin="S"/>
-<wire x1="-12.7" y1="78.74" x2="-22.86" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="-22.86" y1="78.74" x2="-22.86" y2="58.42" width="0.1524" layer="91"/>
-<junction x="-22.86" y="58.42"/>
-</segment>
-</net>
 <net name="N$33" class="0">
 <segment>
 <pinref part="ARD_NANO" gate="G$1" pin="D11"/>
@@ -12367,6 +12283,20 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <segment>
 <pinref part="BT" gate="-1" pin="S"/>
 <pinref part="AT/DATA" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<wire x1="-40.64" y1="50.8" x2="-22.86" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="BT1" gate="G$1" pin="1-"/>
+<wire x1="-40.64" y1="48.26" x2="-40.64" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="SW2" gate="1" pin="P"/>
+<wire x1="-22.86" y1="58.42" x2="-12.7" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="SWITCH" gate="-1" pin="S"/>
+<wire x1="-12.7" y1="78.74" x2="-22.86" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="78.74" x2="-22.86" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="50.8" x2="-22.86" y2="58.42" width="0.1524" layer="91"/>
+<junction x="-22.86" y="58.42"/>
 </segment>
 </net>
 </nets>
