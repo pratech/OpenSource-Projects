@@ -14672,7 +14672,7 @@ Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <part name="U1" library="LM358M_NOPB" deviceset="LM358M/NOPB" device=""/>
 <part name="U2" library="LM358M_NOPB" deviceset="LM358M/NOPB" device=""/>
 <part name="R1" library="bourns" deviceset="3362" device="H" value="10K"/>
-<part name="R3" library="bourns" deviceset="3362" device="H"/>
+<part name="R3" library="bourns" deviceset="3362" device="H" value="10K"/>
 <part name="SUPPLY32" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY33" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="SUPPLY34" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -14687,29 +14687,29 @@ Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <part name="R6" library="adafruit" deviceset="R-US_" device="M1206" value="10K"/>
 <part name="SUPPLY38" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_1206"/>
-<part name="R7" library="adafruit" deviceset="R-US_" device="M1206" value="10K"/>
+<part name="R7" library="adafruit" deviceset="R-US_" device="M1206" value="330 ohm"/>
 <part name="SUPPLY39" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="SUPPLY19" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY28" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="U3" library="TCRT5000" deviceset="TCRT5000" device=""/>
 <part name="U4" library="TCRT5000" deviceset="TCRT5000" device=""/>
 <part name="SUPPLY40" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R8" library="adafruit" deviceset="R-US_" device="M1206"/>
+<part name="R8" library="adafruit" deviceset="R-US_" device="M1206" value="150 ohm"/>
 <part name="SUPPLY41" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
-<part name="R9" library="adafruit" deviceset="R-US_" device="M1206"/>
+<part name="R9" library="adafruit" deviceset="R-US_" device="M1206" value="150 ohm"/>
 <part name="SUPPLY42" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="SUPPLY43" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY44" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="LED2" library="adafruit" deviceset="LED" device="CHIPLED_1206"/>
-<part name="R10" library="adafruit" deviceset="R-US_" device="M1206" value="10K"/>
+<part name="R10" library="adafruit" deviceset="R-US_" device="M1206" value="100E"/>
 <part name="SUPPLY45" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="SUPPLY46" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY47" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="SUPPLY48" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="LED3" library="adafruit" deviceset="LED" device="CHIPLED_1206"/>
-<part name="R11" library="adafruit" deviceset="R-US_" device="M1206" value="10K"/>
+<part name="R11" library="adafruit" deviceset="R-US_" device="M1206" value="100E"/>
 <part name="SUPPLY49" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
-<part name="R5" library="bourns" deviceset="3362" device="H"/>
+<part name="R5" library="bourns" deviceset="3362" device="H" value="10K"/>
 <part name="SUPPLY50" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="SUPPLY51" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="LED4" library="adafruit" deviceset="LED" device="CHIPLED_1206"/>

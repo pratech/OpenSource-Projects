@@ -1498,7 +1498,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-27.432" y="-74.168" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="-27.4066" y="-83.312" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="R3" library="bourns" package="3362H" value="" x="-33.02" y="-77.47" smashed="yes">
+<element name="R3" library="bourns" package="3362H" value="10K" x="-33.02" y="-77.47" smashed="yes">
 <attribute name="NAME" x="-36.322" y="-74.168" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="-36.2966" y="-83.312" size="1.27" layer="27" ratio="10"/>
 </element>
@@ -1530,7 +1530,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-41.91" y="-125.73" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="-38.1" y="-125.73" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R7" library="adafruit" package="M1206" value="10K" x="-40.64" y="-130.81" smashed="yes">
+<element name="R7" library="adafruit" package="M1206" value="330 ohm" x="-40.64" y="-130.81" smashed="yes">
 <attribute name="NAME" x="-41.91" y="-129.54" size="1.27" layer="25"/>
 <attribute name="VALUE" x="-41.91" y="-133.35" size="1.27" layer="27"/>
 </element>
@@ -1556,11 +1556,11 @@ design rules under a new name.</description>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TCRT5000/?ref=eda" x="-60.96" y="-127" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-65.91081875" y="-132.35271875" size="1.27676875" layer="27" ratio="10"/>
 </element>
-<element name="R8" library="adafruit" package="M1206" value="" x="-63.5" y="-137.16" smashed="yes">
+<element name="R8" library="adafruit" package="M1206" value="150 ohm" x="-63.5" y="-137.16" smashed="yes">
 <attribute name="NAME" x="-64.77" y="-135.89" size="1.27" layer="25"/>
 <attribute name="VALUE" x="-64.77" y="-139.7" size="1.27" layer="27"/>
 </element>
-<element name="R9" library="adafruit" package="M1206" value="" x="-63.5" y="-142.24" smashed="yes">
+<element name="R9" library="adafruit" package="M1206" value="150 ohm" x="-63.5" y="-142.24" smashed="yes">
 <attribute name="NAME" x="-64.77" y="-140.97" size="1.27" layer="25"/>
 <attribute name="VALUE" x="-64.77" y="-144.78" size="1.27" layer="27"/>
 </element>
@@ -1568,7 +1568,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-64.77" y="-149.86" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="-60.96" y="-149.86" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R10" library="adafruit" package="M1206" value="10K" x="-59.69" y="-147.32" smashed="yes">
+<element name="R10" library="adafruit" package="M1206" value="100E" x="-59.69" y="-147.32" smashed="yes">
 <attribute name="NAME" x="-60.96" y="-146.05" size="1.27" layer="25"/>
 <attribute name="VALUE" x="-60.96" y="-149.86" size="1.27" layer="27"/>
 </element>
@@ -1576,11 +1576,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-64.77" y="-156.21" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="-60.96" y="-156.21" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R11" library="adafruit" package="M1206" value="10K" x="-59.69" y="-154.94" smashed="yes">
+<element name="R11" library="adafruit" package="M1206" value="100E" x="-59.69" y="-154.94" smashed="yes">
 <attribute name="NAME" x="-60.96" y="-153.67" size="1.27" layer="25"/>
 <attribute name="VALUE" x="-60.96" y="-157.48" size="1.27" layer="27"/>
 </element>
-<element name="R5" library="bourns" package="3362H" value="" x="-71.12" y="-151.13" smashed="yes">
+<element name="R5" library="bourns" package="3362H" value="10K" x="-71.12" y="-151.13" smashed="yes">
 <attribute name="NAME" x="-74.422" y="-147.828" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="-74.3966" y="-156.972" size="1.27" layer="27" ratio="10"/>
 </element>
