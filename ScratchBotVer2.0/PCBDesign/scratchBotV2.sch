@@ -14911,9 +14911,9 @@ Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <attribute name="NAME" x="142.24" y="5.715" size="1.778" layer="95"/>
 <attribute name="VALUE" x="142.24" y="3.175" size="1.778" layer="96"/>
 </instance>
-<instance part="C2" gate="G$1" x="160.02" y="-2.54" smashed="yes">
-<attribute name="NAME" x="161.036" y="-1.905" size="1.778" layer="95"/>
-<attribute name="VALUE" x="161.036" y="-6.731" size="1.778" layer="96"/>
+<instance part="C2" gate="G$1" x="162.56" y="-5.08" smashed="yes">
+<attribute name="NAME" x="163.576" y="-4.445" size="1.778" layer="95"/>
+<attribute name="VALUE" x="163.576" y="-9.271" size="1.778" layer="96"/>
 </instance>
 <instance part="C4" gate="G$1" x="137.16" y="-2.54" smashed="yes">
 <attribute name="NAME" x="138.176" y="-1.905" size="1.778" layer="95"/>
@@ -15188,7 +15188,6 @@ Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <segment>
 <pinref part="SUPPLY12" gate="GND" pin="GND"/>
 <wire x1="149.86" y1="-10.16" x2="149.86" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="-7.62" x2="160.02" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="-7.62" x2="149.86" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="149.86" y="-7.62"/>
 <pinref part="7805" gate="A1" pin="GND"/>
@@ -15196,6 +15195,9 @@ Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <pinref part="C2" gate="G$1" pin="-"/>
 <pinref part="GND" gate="G$1" pin="1"/>
 <junction x="149.86" y="-10.16"/>
+<wire x1="149.86" y1="-7.62" x2="157.48" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="-7.62" x2="157.48" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="-10.16" x2="162.56" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="ARD_NANO" gate="G$1" pin="GND@2"/>
@@ -15446,14 +15448,6 @@ Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <pinref part="SUPPLY20" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="SUPPLY3" gate="G$1" pin="VCC"/>
-<pinref part="7805" gate="A1" pin="VO"/>
-<pinref part="C2" gate="G$1" pin="+"/>
-<junction x="160.02" y="0"/>
-<wire x1="160.02" y1="0" x2="162.56" y2="0" width="0.1524" layer="91"/>
-<pinref part="5V" gate="G$1" pin="1"/>
-</segment>
-<segment>
 <pinref part="SUPPLY16" gate="G$1" pin="VCC"/>
 <pinref part="BT" gate="-2" pin="S"/>
 </segment>
@@ -15539,6 +15533,17 @@ Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <segment>
 <pinref part="R5" gate="G$1" pin="3"/>
 <pinref part="SUPPLY51" gate="G$1" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="C2" gate="G$1" pin="+"/>
+<pinref part="SUPPLY3" gate="G$1" pin="VCC"/>
+<wire x1="162.56" y1="-2.54" x2="162.56" y2="0" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="-2.54" x2="160.02" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="162.56" y="-2.54"/>
+<pinref part="7805" gate="A1" pin="VO"/>
+<pinref part="5V" gate="G$1" pin="1"/>
+<wire x1="160.02" y1="-2.54" x2="160.02" y2="0" width="0.1524" layer="91"/>
+<junction x="160.02" y="0"/>
 </segment>
 </net>
 <net name="N$17" class="0">
